@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Login Form</h1>
+
+    <div class="box">
+      <form action="#form" method="post">
+        <h2>Create Your Account</h2>
+
+        <div class="b1 b">
+          <label for="name" id="l">USERNAME :</label><br />
+          <input
+            type="text"
+            placeholder="Enter Your Username"
+            id="name"
+            class="i in"
+            minlength="3"
+            maxlength="40"
+          />
+        </div>
+
+        <div class="b2 b">
+          <label for="mail" id="l">GMAIL :</label><br />
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            id="mail"
+            class="i im"
+          />
+        </div>
+
+        <div class="b b3">
+          <label for="pass" id="l">PASSWORD :</label><br />
+          <input
+            type="password"
+            placeholder="Enter Your Password"
+            id="pass"
+            class="i ip"
+            minlength="8"
+            maxlength="16"
+          />
+        </div>
+
+        <div class="b4 b">
+          <label for="no" id="l">PHONE NUMBER :</label><br />
+          <input
+            type="tel"
+            placeholder="Enter Your Phone number"
+            id="no"
+            class="i ino"
+          />
+        </div>
+
+        <button class="btn">Login</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
